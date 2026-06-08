@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الحقيبة الرقمية لنجاة الصحفيين — Digital Survival Kit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="presentation" id="presentation">
+    <!-- Slide 0: Title -->
+    <section class="slide slide-title active" data-slide="0">
+      <div class="slide-bg grid-pattern"></div>
+      <div class="slide-content">
+        <span class="badge">دليل نجاة رقمي للصحفيين</span>
+        <h1>الحقيبة الرقمية لنجاة الصحفيين</h1>
+        <p class="subtitle en-sub" dir="ltr">Digital Survival Kit for Journalists</p>
+        <p class="subtitle">لما الخبر، الصوت، الفيديو، والرابط كلهم ممكن يكونوا فخ.</p>
+        <div class="title-visual">
+          <div class="face-split" aria-hidden="true">
+            <span class="face-real"></span>
+            <span class="face-ai"></span>
+          </div>
+          <div class="title-icons">
+            <span class="icon-pill">🛡️</span>
+            <span class="icon-pill">📰</span>
+            <span class="icon-pill">🤖</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 1: Hero -->
+    <section class="slide" data-slide="1" data-section="البداية">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <span class="slide-num">١</span>
+        <h2>قبل ما تنشر الخبر… تأكد إنه مش معمول ضدك.</h2>
+        <p class="lead">اليوم الصحفي مش بس بسأل: «هل الخبر صحيح؟»<br>صار لازم يسأل:</p>
+        <ul class="threat-list">
+          <li>هل الفيديو حقيقي؟</li>
+          <li>هل الصوت طبيعي؟</li>
+          <li>هل الرابط آمن؟</li>
+          <li>هل المصدر شخص حقيقي؟</li>
+          <li>هل في حدا بحاول يبتزني أو يوقعني؟</li>
+        </ul>
+        <blockquote class="quote-box warning">
+          في عصر الـAI، الخطر مش بس «خبر كاذب». الخطر إنك تشوف فيديو لشخصية عامة بتحكي تصريح خطير… ويطلع مولّد. أو تسمع صوت مصدر موثوق… ويطلع مستنسخ. أو توصلك رسالة ابتزاز… هدفها يخليك تتصرف بخوف قبل ما تفكر.<br><strong>هنا يبدأ دفاع الصحفي الرقمي.</strong>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Slide 2: The New Threat -->
+    <section class="slide" data-slide="2">
+      <div class="slide-bg ai-theme"></div>
+      <div class="slide-content">
+        <span class="slide-num">٢</span>
+        <h2>لم يعد التزييف واضحًا</h2>
+        <p class="lead">زمان كان ممكن تعرف الصورة المفبركة من أول نظرة. اليوم، <strong>AI video generation</strong> و <strong>voice cloning</strong> صاروا كفاية إنهم يخدعوا جمهور كامل خلال دقائق.</p>
+        <p class="highlight-line">المشكلة مش إن الـDeepfake يكون مثالي — المشكلة إنه يظهر في لحظة حساسة: حرب، انتخابات، فضيحة، اعتقال، أو خبر عاجل.</p>
+        <blockquote class="quote-box ai">
+          الـDeepfake لا يحتاج أن يكون كاملًا. <strong>يكفي أن يكون مقنعًا قبل أول تكذيب.</strong>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Slide 3: Three Attacks -->
+    <section class="slide" data-slide="3" data-section="الهجمات">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <span class="slide-num">٣</span>
+        <h2>٣ هجمات لازم كل صحفي يكون جاهز إلها</h2>
+        <div class="risk-grid">
+          <article class="risk-item accent">
+            <h3>١. Deepfake Attack</h3>
+            <p>حدا يعمل فيديو أو صوت للصحفي أو لشخصية عامة كأنها قالت شيء لم يحدث.</p>
+            <p class="risk-danger">يضرب الثقة، يسبب أزمة، ويجبر الصحفي يدافع عن نفسه بدل ما يشتغل على الحقيقة.</p>
+          </article>
+          <article class="risk-item accent">
+            <h3>٢. Blackmail Attack</h3>
+            <p>الابتزاز ممكن يبدأ من صورة، محادثة، تسجيل، ملف، أو حتى شيء مفبرك بالكامل.</p>
+            <p class="risk-danger">المهاجم مش دايمًا بده المال — أحيانًا بده يسكتك، يخوفك، يخرب سمعتك، أو يوصل لمصادرك.</p>
+          </article>
+          <article class="risk-item accent">
+            <h3>٣. AI-generated News</h3>
+            <p>صورة انفجار، فيديو مظاهرة، تصريح سياسي، أو «خبر عاجل» — كله ممكن يكون مولّد أو خارج سياقه.</p>
+            <p class="risk-danger">الصحفي ينشر بسرعة، وبعدها يكتشف إنه كان جزءًا من حملة تضليل.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4: Journalist Mindset -->
+    <section class="slide" data-slide="4" data-section="العقلية">
+      <div class="slide-bg golden"></div>
+      <div class="slide-content">
+        <span class="slide-num">٤</span>
+        <h2>لا تسأل: «هل يبدو حقيقيًا؟»</h2>
+        <p class="mega">اسأل: <strong>هل أستطيع إثبات أنه حقيقي؟</strong></p>
+        <p class="lead">أي محتوى مشكوك فيه لازم يمر على ٤ أسئلة:</p>
+        <div class="stop-grid">
+          <div class="stop-item"><span class="letter">S</span><h3>Source — مين المصدر؟</h3><p>هل الحساب معروف؟ جديد؟ عنده تاريخ؟ تواصل معك من قناة معتادة؟</p></div>
+          <div class="stop-item"><span class="letter">T</span><h3>Timing — ليش الآن؟</h3><p>هل ظهر وقت أزمة، انتخابات، حرب، أو ضغط سياسي؟</p></div>
+          <div class="stop-item"><span class="letter">O</span><h3>Origin — وين الأصل؟</h3><p>مين أول شخص نشره؟ هل في نسخة أصلية؟ مصدر رسمي؟</p></div>
+          <div class="stop-item"><span class="letter">P</span><h3>Proof — شو الدليل الخارجي؟</h3><p>شهود؟ صور من زاوية ثانية؟ بيانات رسمية؟ خرائط؟ طقس؟ ظلال؟ صوت بيئة مطابق؟</p></div>
+        </div>
+        <p class="note"><a href="https://gijn.org/resource/fact-checking-verification/" target="_blank" rel="noopener">GIJN</a> عندها دليل عملي للصحفيين عن كشف المحتوى المولد بالAI — التحقق ما بصير بأداة واحدة، بل بسلسلة أدلة وسياق ومصدر.</p>
+      </div>
+    </section>
+
+    <!-- Slide 5: Video Verification Workflow -->
+    <section class="slide" data-slide="5" data-section="التحقق الرقمي">
+      <div class="slide-bg ai-theme"></div>
+      <div class="slide-content">
+        <span class="slide-num">٥</span>
+        <h2>الفيديو قد يكون مثاليًا… لكن الحقيقة تترك آثارًا</h2>
+        <p class="lead verify-lead">لا تبحث عن خطأ واحد. <strong>ابنِ سلسلة تحقق.</strong></p>
+        <div class="two-col signs">
+          <div>
+            <h3 class="sub">تحقق من المصدر</h3>
+            <ul class="simple-list small">
+              <li>من نشره أولًا؟ هل الحساب موثوق أم جديد؟</li>
+              <li>هل يوجد سياق أو نسخة أصلية أقدم؟</li>
+              <li>هل انتشر أولًا من حسابات مجهولة أو بدون سياق؟</li>
+              <li>هل الملف يحمل <strong>Content Credentials / C2PA</strong>؟ إذا نعم: افحص من أنشأه، متى، وبأي أدوات. إذا لا: لا يعني مزيفًا — لكنه يحتاج تحقق إضافي.</li>
+              <li>هل التوقيت والمكان منطقيان؟</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub">تحقق من الإشارات</h3>
+            <ul class="simple-list small">
+              <li>هل الصوت يناسب المكان؟ صدى الغرفة، الضوضاء، التنفس والفواصل</li>
+              <li>هل الظلال والانعكاسات طبيعية وتتغير مع الحركة؟</li>
+              <li>هل التفاعل مع البيئة منطقي؟ نبرة الصوت، المسافة عن الكاميرا، الضجيج الخلفي</li>
+              <li>هل توجد قفزات غريبة في الجودة بين الصوت والفيديو؟</li>
+              <li>هل أدوات الكشف تتفق أم تختلف؟ <strong>AI detectors = إشارة، مش حكم نهائي.</strong></li>
+            </ul>
+          </div>
+        </div>
+        <p class="forensic-note">الصوت الحقيقي يحمل أثر المكان. الصوت المزيف غالبًا يحمل أثر النموذج. أي أداة تقول «٩٠٪ AI» لا تكفي وحدها — قارنها مع المصدر، النسخ الأخرى، التوقيت، والسياق.</p>
+        <blockquote class="quote-box ai">في عصر الـAI، السؤال لم يعد: «هل يبدو حقيقيًا؟»<br>بل: <strong>«هل أستطيع إثبات مصدره؟»</strong></blockquote>
+      </div>
+    </section>
+
+    <!-- Slide 6: Blackmail Response -->
+    <section class="slide" data-slide="6" data-section="الابتزاز">
+      <div class="slide-bg alert-theme"></div>
+      <div class="slide-content">
+        <span class="slide-num">٦</span>
+        <h2>إذا وصلك ابتزاز: لا تتحرك من الخوف</h2>
+        <p class="mega warn">لو شكيت إنك مهدد — <strong>اهدأ أولًا.</strong></p>
+        <div class="two-col">
+          <div>
+            <h3 class="sub danger-sub">لا تعمل:</h3>
+            <ul class="dont-list">
+              <li>لا تدفع</li>
+              <li>لا ترسل صور/ملفات إضافية</li>
+              <li>لا تدخل بنقاش طويل</li>
+              <li>لا تحذف الأدلة</li>
+              <li>لا تتعامل مع الموضوع لحالك</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub">اعمل:</h3>
+            <ol class="action-list compact">
+              <li>خذ screenshots</li>
+              <li>احفظ الروابط، اليوزرات، الأرقام، ووقت الرسائل</li>
+              <li>غيّر كلمات السر من جهاز آمن</li>
+              <li>فعّل 2FA</li>
+              <li>بلّغ المنصة</li>
+              <li>أخبر شخصًا موثوقًا أو مؤسستك</li>
+              <li>تواصل مع جهة دعم رقمي</li>
+            </ol>
+          </div>
+        </div>
+        <blockquote class="quote-box warning">المبتز يريدك <strong>سريعًا، خائفًا، ووحيدًا.</strong> اكسر الثلاثة: اهدأ، وثّق، واطلب دعم.</blockquote>
+        <p class="note"><a href="https://www.accessnow.org/help/" target="_blank" rel="noopener">Access Now Digital Security Helpline</a> — دعم مجاني ٢٤/٧ للصحفيين والناشطين والمدافعين عن حقوق الإنسان.</p>
+      </div>
+    </section>
+
+    <!-- Slide 7: Check Before You Click -->
+    <section class="slide" data-slide="7" data-section="الروابط">
+      <div class="slide-bg link-theme"></div>
+      <div class="slide-content">
+        <span class="slide-num">٧</span>
+        <h2>الرابط قد يكون أول طلقة</h2>
+        <p class="mega warn">قبل ما تضغط — <strong>افحص.</strong></p>
+        <div class="tools-list">
+          <div class="tool"><strong>VirusTotal</strong> — فحص روابط وملفات مشبوهة. ممتاز كبداية، لكن لا ترفع ملفات أو روابط حساسة جدًا.</div>
+          <div class="tool"><strong>Google Safe Browsing</strong> — فحص إذا كان الموقع معروف كموقع تصيّد أو malware.</div>
+          <div class="tool"><strong>urlscan.io</strong> — يعرض سلوك الرابط: التحويلات، الدومينات المتصلة، والـIP.</div>
+          <div class="tool"><strong>ICANN Lookup</strong> — فحص عمر الدومين ومعلومات تسجيله. دومين معمول من يومين ويدّعي إنه مؤسسة إعلامية كبيرة = علامة خطر.</div>
+        </div>
+        <p class="note"><a href="https://sanef.org.za/digital-safety-kit-for-journalists/" target="_blank" rel="noopener">CPJ Digital Safety Kit</a> — مصدر أساسي للصحفيين لحماية حساباتهم ومصادرهم من التصيد والاختراق والمراقبة.</p>
+      </div>
+    </section>
+
+    <!-- Slide 8: Read the Domain -->
+    <section class="slide" data-slide="8">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <span class="slide-num">٨</span>
+        <h2>الموقع المزيف لا يحتاج أن يكون غبيًا</h2>
+        <div class="url-examples">
+          <div class="url-box bad link-dissect">
+            <code dir="ltr"><span class="fake-trust">facebook.com</span>.<span class="real-domain">security-check.net</span>/login</code>
+            <p>هذا <strong>ليس</strong> Facebook — <span class="fake-label">كلمة ثقة مزيفة:</span> <code dir="ltr">facebook.com</code> · <span class="real-label">الدومين الحقيقي:</span> <code dir="ltr">security-check.net</code></p>
+          </div>
+          <div class="url-box good">
+            <code dir="ltr">security.<span class="real-domain-good">facebook.com</span>/login</code>
+            <p>تابع لـ <code dir="ltr">facebook.com</code></p>
+          </div>
+        </div>
+        <blockquote class="quote-box golden">اقرأ الدومين الحقيقي قبل أول <code dir="ltr">/</code>، وركز على <strong>آخر جزئين قبل المسار.</strong></blockquote>
+        <ul class="flags-list">
+          <li><code dir="ltr">g00gle.com</code> · <code dir="ltr">faceboook.com</code> · <code dir="ltr">login-facebook-secure.com</code></li>
+          <li>دومين طويل جدًا · كلمات: urgent, verify, security-check</li>
+          <li>رابط قصير بدون سبب · رسالة فيها تهديد أو استعجال</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Slide 9: Verify AI News -->
+    <section class="slide" data-slide="9" data-section="التحقق">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <span class="slide-num">٩</span>
+        <h2>كيف أتحقق من فيديو أو صورة خبرية؟</h2>
+        <p class="tagline-mono" dir="ltr">Detection ≠ Verification</p>
+        <ol class="workflow-list">
+          <li>لا تنشر مباشرة</li>
+          <li>استخرج keyframes من الفيديو</li>
+          <li>اعمل reverse image search</li>
+          <li>دور على أول ظهور للمحتوى</li>
+          <li>افحص المكان: خرائط، مباني، لافتات، طقس</li>
+          <li>قارن الصوت مع البيئة</li>
+          <li>افحص الدومين أو الحساب الناشر</li>
+          <li>استخدم أدوات AI/deepfake detection كإشارة، مش كحكم نهائي</li>
+          <li>تواصل مع المصدر الرسمي</li>
+          <li>اكتب مستوى الثقة بوضوح لو المعلومة غير مؤكدة</li>
+        </ol>
+        <div class="tools-list compact-tools">
+          <div class="tool"><strong>InVID / WeVerify</strong> — keyframes، metadata، والبحث العكسي</div>
+          <div class="tool"><strong>TrueMedia.org</strong> — مؤشرات deepfake كبداية</div>
+          <div class="tool"><strong>Content Credentials / C2PA</strong> — أصل المحتوى وتاريخه</div>
+          <div class="tool"><strong>Bellingcat Toolkit</strong> — تحقق من الصور، الفيديو، السوشال، والخرائط</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 10: Protect Your Data -->
+    <section class="slide" data-slide="10" data-section="حماية البيانات">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٠</span>
+        <h2>بياناتك ليست ملفات. بياناتك قد تكون حياة شخص آخر.</h2>
+        <div class="protect-grid">
+          <span>أسماء المصادر</span><span>أرقامهم</span>
+          <span>محادثاتهم</span><span>وثائق مسربة</span>
+          <span>صور غير منشورة</span><span>تسجيلات</span>
+          <span>ملاحظات تحقيق</span><span>حسابات السوشال</span>
+          <span class="wide">بيانات العائلة والمكان</span>
+        </div>
+        <blockquote class="quote-box golden">لا تحفظ كل شيء في كل مكان.</blockquote>
+        <div class="tiers">
+          <div class="tier low"><h3>Low Risk</h3><p>محتوى منشور، ملاحظات عامة.</p></div>
+          <div class="tier medium"><h3>Medium Risk</h3><p>مسودات، صور غير منشورة، محادثات عمل.</p></div>
+          <div class="tier high"><h3>High Risk</h3><p>مصادر سرية، وثائق مسربة، صور خاصة، تسجيلات حساسة، معلومات قد تؤدي لابتزاز.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 11: Tools for Data Protection -->
+    <section class="slide" data-slide="11">
+      <div class="slide-bg lock-theme"></div>
+      <div class="slide-content">
+        <span class="slide-num">١١</span>
+        <h2>أدوات تحمي الصحفي قبل الأزمة</h2>
+        <div class="two-col">
+          <div>
+            <h3 class="sub">Passwords</h3>
+            <ul class="simple-list small">
+              <li>Bitwarden · 1Password · Proton Pass</li>
+            </ul>
+            <h3 class="sub">Two-Factor Authentication</h3>
+            <ul class="simple-list small">
+              <li>Authenticator apps</li>
+              <li>Security keys مثل YubiKey</li>
+              <li>SMS فقط إذا ما في خيار أقوى</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub">Secure Communication</h3>
+            <ul class="simple-list small">
+              <li>Signal للمحادثات الحساسة</li>
+              <li>SecureDrop للمؤسسات التي تستقبل تسريبات</li>
+            </ul>
+            <h3 class="sub">File Encryption</h3>
+            <ul class="simple-list small">
+              <li>Cryptomator — cloud</li>
+              <li>VeraCrypt — محلي</li>
+              <li>BitLocker · FileVault</li>
+            </ul>
+          </div>
+        </div>
+        <p class="note"><a href="https://ssd.eff.org/" target="_blank" rel="noopener">EFF Surveillance Self-Defense</a> — دليل عملي لحماية الصحفيين والناشطين من التجسس والمراقبة الرقمية.</p>
+      </div>
+    </section>
+
+    <!-- Slide 12: When Things Get Serious -->
+    <section class="slide" data-slide="12" data-section="طوارئ">
+      <div class="slide-bg emergency"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٢</span>
+        <h2>لو شكيت إن جهازك مخترق</h2>
+        <p class="mega warn">لا تحاول «تصلحه» عشوائيًا.</p>
+        <ul class="check-list compact">
+          <li>افصل الجهاز عن الإنترنت</li>
+          <li>لا تحذف الأدلة</li>
+          <li>لا تفتح حسابات حساسة من نفس الجهاز</li>
+          <li>غيّر كلمات السر من جهاز موثوق</li>
+          <li>وثّق الأعراض والوقت</li>
+          <li>تواصل مع جهة متخصصة</li>
+        </ul>
+        <div class="resources-grid compact-res">
+          <a href="https://www.accessnow.org/help/" target="_blank" rel="noopener" class="resource">Access Now Helpline — ٢٤/٧</a>
+          <a href="https://rsf.org/en/digital-security-lab" target="_blank" rel="noopener" class="resource">RSF Digital Security Lab</a>
+          <a href="https://securitylab.amnesty.org/tools-and-guides/" target="_blank" rel="noopener" class="resource">Amnesty Security Lab</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 13: Real World Proof -->
+    <section class="slide" data-slide="13">
+      <div class="slide-bg breaking"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٣</span>
+        <h2>هذا ليس سيناريو خيالي</h2>
+        <p class="lead">الخطر مش «هاكر مجهول بالإنترنت» فقط — أحيانًا الصحفي يواجه حملات منظمة، مراقبة، أو استهداف سياسي.</p>
+        <ol class="cases-list">
+          <li><strong>الأردن — Pegasus:</strong> Access Now وثّقت استهداف ما لا يقل عن ٣٠ شخصًا، بينهم صحفيون ومحامون وناشطون، بين ٢٠١٩ وسبتمبر ٢٠٢٣. <a href="https://apnews.com/article/99b0b1e4ee256e0b4df055f926349a43" target="_blank" rel="noopener" class="inline-link">AP News</a></li>
+          <li><strong>صربيا:</strong> Amnesty ذكرت استخدام أدوات رقمية وبرمجيات تجسس ضد صحفيين ونشطاء، مع ادعاءات اختراق هواتف أثناء الاحتجاز أو مقابلات الشرطة. <a href="https://apnews.com/article/d35744f1fb9282aed8618934748dc93b" target="_blank" rel="noopener" class="inline-link">AP News</a></li>
+        </ol>
+        <p class="highlight-line">في عصر الـAI، الرؤية لم تعد كافية — فيديو ممكن يتولّد، صوت ممكن يتنسخ، مصدر ممكن يكون وهمي، ورابط ممكن يكون سلاح.</p>
+      </div>
+    </section>
+
+    <!-- Slide 14: The New Rule -->
+    <section class="slide" data-slide="14">
+      <div class="slide-bg golden"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٤</span>
+        <h2>القاعدة الجديدة: تحقق من الواقع، مش بس من المعلومة</h2>
+        <p class="lead">قبل النشر، إعادة التوجيه، الرد، أو الضغط — <strong>توقف.</strong></p>
+        <ul class="finale-list">
+          <li>افحص المصدر، التوقيت، الأصل، والدليل</li>
+          <li>أسرع صحفي مش اللي ينشر أولًا — اللي ما يصير جزء من الهجوم</li>
+          <li>الابتزاز يشتغل بالذعر — أول خطوة: وثّق، أمّن، بلّغ، واطلب دعم</li>
+        </ul>
+        <blockquote class="quote-box golden">
+          إذا هددوك — <strong>بطّئ.</strong> أول حركة مش الرد. أول حركة التوثيق والأمان وطلب المساعدة.
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Slide 15: Tools Section Intro -->
+    <section class="slide" data-slide="15" data-section="الأدوات">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٥</span>
+        <h2>أدوات حقيقية للصحفيين وقت الخطر</h2>
+        <p class="lead">لا تواجه الخطر وحدك — <strong>استخدم الأدوات الصحيحة.</strong></p>
+        <div class="toolkit-map">
+          <div class="toolkit-pill"><span class="pill-num">١</span><strong>التحقق من الصور والفيديو</strong><span class="pill-tools" dir="ltr">InVID · Reverse Search · C2PA</span></div>
+          <div class="toolkit-pill"><span class="pill-num">٢</span><strong>كشف احتمال الـ AI</strong><span class="pill-tools" dir="ltr">Reality Defender · Hive · C2PA Verify</span></div>
+          <div class="toolkit-pill"><span class="pill-num">٣</span><strong>حماية الحسابات</strong><span class="pill-tools" dir="ltr">Password Manager · 2FA · HIBP</span></div>
+          <div class="toolkit-pill"><span class="pill-num">٤</span><strong>حماية المصادر</strong><span class="pill-tools" dir="ltr">Signal · Proton Mail · SecureDrop</span></div>
+          <div class="toolkit-pill"><span class="pill-num">٥</span><strong>تقليل الدوكسينغ</strong><span class="pill-tools">Google Results · PEN America</span></div>
+          <div class="toolkit-pill emergency-pill"><span class="pill-num">٦</span><strong>مساعدة وقت الطوارئ</strong><span class="pill-tools" dir="ltr">Access Now · CPJ · Amnesty</span></div>
+        </div>
+        <blockquote class="quote-box golden">الأداة لا تحميك وحدها. <strong>القوة في ترتيب استخدامها.</strong></blockquote>
+      </div>
+    </section>
+
+    <!-- Slide 16: Toolkits 1–3 -->
+    <section class="slide" data-slide="16" data-section="الأدوات">
+      <div class="slide-bg"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٦</span>
+        <h2>حقائب الأدوات — التحقق والحماية</h2>
+        <div class="toolkit-stack">
+          <article class="toolkit-card">
+            <h3>١. التحقق من الصور والفيديو</h3>
+            <div class="toolkit-tools">
+              <a href="https://www.invid-project.eu/tools-and-services/invid-verification-plugin/" target="_blank" rel="noopener" class="toolkit-link"><strong>InVID / WeVerify</strong> — keyframes، reverse search، metadata</a>
+              <span class="toolkit-link"><strong>Google Lens / TinEye / Yandex</strong> — أول ظهور للصورة أو لقطات الفيديو</span>
+              <a href="https://www.amnestyusa.org/citizen-evidence-lab/" target="_blank" rel="noopener" class="toolkit-link"><strong>Amnesty Citizen Evidence Lab</strong> — YouTube DataViewer وتحقق زمني</a>
+            </div>
+          </article>
+          <article class="toolkit-card accent-card">
+            <h3>٢. كشف الـ AI والـ Deepfake</h3>
+            <p class="toolkit-warn">AI detectors لا تعطي حكمًا نهائيًا — <strong>تعطي إشارة.</strong></p>
+            <div class="toolkit-tools">
+              <a href="https://www.realitydefender.com/" target="_blank" rel="noopener" class="toolkit-link"><strong>Reality Defender</strong> — فحص إضافي للتحقيقات الإعلامية</a>
+              <a href="https://hivemoderation.com/ai-generated-content-detection" target="_blank" rel="noopener" class="toolkit-link"><strong>Hive AI Detector</strong> — فحص سريع لصور/فيديو/نص</a>
+              <a href="https://c2pa.org/" target="_blank" rel="noopener" class="toolkit-link"><strong>Content Credentials / C2PA</strong> — منشأ وتعديلات موثقة، مش detector تقليدي</a>
+            </div>
+          </article>
+          <article class="toolkit-card">
+            <h3>٣. حماية الحسابات</h3>
+            <div class="toolkit-tools">
+              <span class="toolkit-link"><strong>Bitwarden / 1Password</strong> — كلمات مرور قوية ومختلفة لكل حساب</span>
+              <span class="toolkit-link"><strong>Aegis / Google / Microsoft Authenticator</strong> — 2FA بدل SMS قدر الإمكان</span>
+              <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener" class="toolkit-link"><strong>Have I Been Pwned</strong> — فحص التسريبات بعد ابتزاز أو اختراق</a>
+              <span class="toolkit-link"><strong>Security Checkup</strong> — Google / Meta / Apple: أجهزة، جلسات، تطبيقات متصلة</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 17: Toolkits 4–6 -->
+    <section class="slide" data-slide="17" data-section="الأدوات">
+      <div class="slide-bg emergency"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٧</span>
+        <h2>حقائب الأدوات — المصادر والطوارئ</h2>
+        <div class="toolkit-stack two-toolkits">
+          <article class="toolkit-card">
+            <h3>٤. التواصل الآمن وحماية المصادر</h3>
+            <div class="toolkit-tools">
+              <a href="https://signal.org/" target="_blank" rel="noopener" class="toolkit-link"><strong>Signal</strong> — تواصل مشفّر مع المصادر والزملاء</a>
+              <a href="https://proton.me/mail" target="_blank" rel="noopener" class="toolkit-link"><strong>Proton Mail / Tuta</strong> — بريد يركز على الخصوصية</a>
+              <a href="https://onionshare.org/" target="_blank" rel="noopener" class="toolkit-link"><strong>OnionShare</strong> — مشاركة ملفات حساسة بخصوصية أعلى</a>
+              <a href="https://securedrop.org/" target="_blank" rel="noopener" class="toolkit-link"><strong>SecureDrop</strong> — استقبال تسريبات للمؤسسات الإعلامية</a>
+            </div>
+          </article>
+          <article class="toolkit-card">
+            <h3>٥. إزالة المعلومات الشخصية / تقليل الدوكسينغ</h3>
+            <div class="toolkit-tools">
+              <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener" class="toolkit-link"><strong>Have I Been Pwned</strong> — فحص إذا بريدك ظهر في تسريبات بيانات</a>
+              <a href="https://myactivity.google.com/results-about-you" target="_blank" rel="noopener" class="toolkit-link"><strong>Google «Results about you»</strong> — معرفة وطلب إزالة نتائج شخصية</a>
+              <span class="toolkit-link"><strong>DeleteMe / Incogni</strong> — إزالة بيانات من data brokers (حسب البلد والتغطية)</span>
+              <a href="https://onlineharassmentfieldmanual.pen.org/" target="_blank" rel="noopener" class="toolkit-link"><strong>PEN America Field Manual</strong> — توثيق الإساءة والتحرش الإلكتروني</a>
+            </div>
+          </article>
+          <article class="toolkit-card emergency-card">
+            <h3>٦. جهات مساعدة وقت الطوارئ</h3>
+            <div class="toolkit-tools">
+              <a href="https://www.accessnow.org/help/" target="_blank" rel="noopener" class="toolkit-link"><strong>Access Now Helpline</strong> — دعم مجاني ٢٤/٧</a>
+              <a href="https://cpj.org/2019/09/digital-safety-diy-guides/" target="_blank" rel="noopener" class="toolkit-link"><strong>CPJ Safety Resources</strong> — أمن رقمي وتقييم مخاطر</a>
+              <a href="https://securitylab.amnesty.org/digital-resources/" target="_blank" rel="noopener" class="toolkit-link"><strong>Amnesty Security Lab</strong> — أدوات ومصادر للمجتمع المدني</a>
+            </div>
+            <a href="https://www.accessnow.org/help/" target="_blank" rel="noopener" class="emergency-btn">أحتاج مساعدة أمن رقمي الآن</a>
+          </article>
+        </div>
+        <blockquote class="quote-box warning compact-quote">استخدم أدوات الكشف كإشارات، لا كحكم نهائي. <strong>الأداة لا تحميك وحدها — القوة في ترتيب استخدامها.</strong></blockquote>
+      </div>
+    </section>
+
+    <!-- Slide 18: Finale -->
+    <section class="slide slide-finale" data-slide="18">
+      <div class="slide-bg grid-pattern"></div>
+      <div class="slide-content">
+        <span class="slide-num">١٨</span>
+        <h2>احمِ الصحفي. احمِ المصدر. احمِ الحقيقة.</h2>
+        <p class="mega">السلامة الرقمية لم تعد اختيارية للصحافة.<br><strong>هي جزء من العمل، من الأخلاقيات، ومن الدفاع عن الواقع نفسه.</strong></p>
+        <ul class="finale-list">
+          <li>لا يضغط قبل أن يفحص</li>
+          <li>لا ينشر قبل أن يتحقق</li>
+          <li>لا يحتفظ بكل شيء بلا داعي</li>
+          <li>لا يواجه الابتزاز وحده</li>
+          <li>لا يعتمد على أداة واحدة</li>
+          <li>يحمي نفسه ومصادره مثلما يحمي القصة</li>
+        </ul>
+        <blockquote class="quote-box golden finale-quote">
+          الحقيقة اليوم لا تُنقل فقط.<br>
+          <strong>الحقيقة تُحمى.</strong>
+        </blockquote>
+        <p class="finale-en" dir="ltr">The truth is no longer just reported. It has to be defended.</p>
+      </div>
+    </section>
+  </div>
+
+  <nav class="controls" aria-label="تنقل الشرائح">
+    <button type="button" id="prev" aria-label="الشريحة السابقة">→</button>
+    <div class="progress-wrap">
+      <div class="progress-bar" id="progressBar"></div>
+      <span class="progress-text" id="progressText">١ / ١٩</span>
+    </div>
+    <button type="button" id="next" aria-label="الشريحة التالية">←</button>
+  </nav>
+
+  <div class="section-indicator" id="sectionIndicator"></div>
+  <div class="slide-dots" id="slideDots" aria-hidden="true"></div>
+
+  <button type="button" class="fullscreen-btn" id="fullscreenBtn" title="ملء الشاشة">⛶</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
