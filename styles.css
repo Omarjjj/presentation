@@ -247,6 +247,22 @@ h2 {
   text-align: center;
 }
 
+.intro-credits {
+  margin: 1.5rem auto 0;
+  max-width: 28rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.5);
+}
+
+.intro-credits p {
+  font-size: 0.95rem;
+  color: var(--gray);
+  line-height: 1.8;
+  margin: 0;
+}
+
 .title-visual {
   margin-top: 2.5rem;
   display: flex;
@@ -555,6 +571,31 @@ h2 {
 
 .note a:hover {
   text-decoration: underline;
+}
+
+.c2pa-tools-item {
+  margin-top: 0.35rem;
+  padding: 0.5rem 0.65rem !important;
+  background: rgba(76, 201, 240, 0.08);
+  border-right: 2px solid var(--cyan);
+  line-height: 1.55 !important;
+}
+
+.c2pa-tools-item::before {
+  content: "🔗 " !important;
+  color: var(--cyan) !important;
+}
+
+.c2pa-label {
+  display: block;
+  font-weight: 700;
+  color: var(--cyan);
+  font-size: 0.78rem;
+  margin-bottom: 0.2rem;
+}
+
+.c2pa-tools-item .inline-link {
+  font-size: 0.78rem;
 }
 
 .verify-lead {
